@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Restaurant</title>
+    <title>Our Menu</title>
 </head>
 <body> 
-    <div class="sidebar">
-        
-    </div>
     
     <!-- Header -->
     <div class="header-container">
@@ -18,9 +15,9 @@
         <!-- menu items -->
         <div class="menu_items">
             <ul>
-                <li><a href="./ourmenu.html">Our Menu</a></li>
-                <li><a href="./contactus.html">Contact Us</a></li>
-                <li><a href="./aboutus.html">About Us</a></li>
+                <li><a href="/ourmenu.html">Our Menu</a></li>
+                <li><a href="/contactus.html">Contact Us</a></li>
+                <li><a href="/aboutus.html">About Us</a></li>
             </ul>
             <!-- <a href="./ourmenu.html" class="menu-link">Our Menu</a>
             <a href="./contactus.html" class="menu-link">Contact Us</a>
@@ -55,32 +52,54 @@
     </div>
 
     <!-- Content container -->
-    <div class="content-container">
-        <div class="left-container">
-            <h1 class="title-food">Food</h1>
-            <p class="desc-food">
-                Discover Restaurant & Delicious Food
-            </p>
-            <div class="search-container">
-                <input type="search" name="search" id="search" placeholder="Search Restaurant">
-                <button type="submit">GO</button>
+    <div class="aboutus-container">
+        <div class="ourmenu-title">
+            <h3 style="margin-left: 20px;">Explore our foods</h3>
+            <p style="font-size: 10px; margin-left: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, assumenda.</p>
+        </div>
+
+        <div class="ourmenu-container">
+            <div class="foodcard">
+                <img src="./assets/burger1.png" alt="burger1" style="background-size: contain; width: 100%;">
+                <div style="display: flex;">
+                    <div style="display: flex; flex-direction: column; margin: 0 15px; width: 170px; margin-top: 10px;">
+                        <Strong style="font-size: 10px;">Handmake Burger</Strong>
+                        <small style="font-size: 8px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, cum.</small>
+                    </div>
+                    <strong style="color: red; display: flex;">&#x20B9;150</strong>
+                </div>
+            </div>
+            <div class="foodcard">
+                <img src="./assets/burger1.png" alt="burger1" style="background-size: contain; width: 100%;">
+                <div style="display: flex;">
+                    <div style="display: flex; flex-direction: column; margin: 0 15px; width: 170px; margin-top: 10px;">
+                        <Strong style="font-size: 10px;">Handmake Burger</Strong>
+                        <small style="font-size: 8px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, cum.</small>
+                    </div>
+                    <strong style="color: red; display: flex;">&#x20B9;150</strong>
+                </div>
+            </div>
+            <div class="foodcard">
+
             </div>
         </div>
-        <div class="right-container">
-            <img src="./assets/lettuce.png" alt="lettuce" class="lettuce">
-            <img src="./assets/food_1.png" alt="food" class="food_1">
+        <div class="ourmenu-container">
+            <div class="foodcard">
+                
+            </div>
+            <div class="foodcard">
+
+            </div>
+            <div class="foodcard">
+
+            </div>
         </div>
+
+
     </div>
 
     <!-- location container -->
-    <div class="location-container">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" viewBox="0 0 20 25" fill="none">
-            <path
-                d="M8.97229 24.4956C1.40469 14.2105 0 13.1549 0 9.375C0 4.19731 4.47714 0 10 0C15.5229 0 20 4.19731 20 9.375C20 13.1549 18.5953 14.2105 11.0277 24.4956C10.5311 25.1682 9.46885 25.1681 8.97229 24.4956ZM10 13.2812C12.3012 13.2812 14.1667 11.5324 14.1667 9.375C14.1667 7.21763 12.3012 5.46875 10 5.46875C7.6988 5.46875 5.83333 7.21763 5.83333 9.375C5.83333 11.5324 7.6988 13.2812 10 13.2812Z"
-                fill="white" />
-        </svg>
-        <p>Kolkata</p>
-    </div>
+
 
 
     <script src="/script.js"></script>
